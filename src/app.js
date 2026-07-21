@@ -2,10 +2,6 @@ const express = require("express");
 
 const app = express();
 
-app.use("/user", (req, res) => {
-  res.send("HAHAHAHAHA");
-});
-
 app.get("/user", (req, res) => {
   res.send({ firstName: "Rupesh", lastName: "Kommindala" });
 });
