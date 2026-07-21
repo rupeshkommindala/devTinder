@@ -1,19 +1,28 @@
 {
   "name": "devtinder",
   "version": "1.0.0",
-  "description": "devTinder for backend",
+  "description": "tinder for devs",
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "homepage": "https://github.com/rupeshkommindala/devTinder#readme",
+  "bugs": {
+    "url": "https://github.com/rupeshkommindala/devTinder/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupeshkommindala/devTinder.git"
+  },
+  "license": "ISC",
+  "author": "Rupesh K",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js"
   },
-  "keywords": [
-    "nodejs",
-    "javascript"
-  ],
-  "author": "Rupesh K",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^5.2.1"
   }
 }
