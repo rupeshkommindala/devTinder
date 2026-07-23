@@ -14,7 +14,7 @@ app.delete("/user", (req, res) => {
   res.send("Deleted successfully");
 });
 
-app.get("/user/:userId/:name/:password", (req, res) => {
+app.get("/user/:userId/:name", (req, res) => {
   console.log(req.params);
   res.send({ firstName: "Rupesh", lastName: "Kommindala" });
 });
