@@ -7,7 +7,7 @@ app.use("/", (req, res) => {
 });
 
 app.use("/hello", (req, res) => {
-  res.send("Hello hello hello!");
+  res.send("Hello Hello Hello!");
 });
 
 app.use("/test", (req, res) => {
@@ -15,5 +15,5 @@ app.use("/test", (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log("Server is successfully running on port 3000");
+  console.log("Server is running on port 3000...");
 });
