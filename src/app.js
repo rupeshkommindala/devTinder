@@ -2,12 +2,16 @@ const express = require("express");
 
 const app = express();
 
-app.get("/user", (req, res) => {
-  res.send({ firstName: "Rupesh", lastName: "K" });
+app.use("/", (req, res) => {
+  res.send("Hello from the Dashboard!");
 });
 
-app.get("/user/:userId/:name/:password", (req, res) => {
-  res.send({ firstName: "Rupesh", lastName: "K" });
+app.use("/hello", (req, res) => {
+  res.send("Hello hello hello!");
+});
+
+app.use("/test", (req, res) => {
+  res.send("Hello from the Server!");
 });
 
 app.listen(3000, () => {
